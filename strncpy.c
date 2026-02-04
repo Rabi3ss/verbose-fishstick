@@ -1,17 +1,17 @@
 #include <stdio.h>
 
 char *ft_strncpy(char *dest, char *src, size_t n);
-
+/*
 int main()
 {
   char src[] = "Hello";
     char dest[10] = {0}; // Initialize to zero
 
-    ft_strncpy(dest, src, 5);
+    ft_strncpy(dest, src, 3);
     printf("Copied: %s\n", dest); // Output: Copied: Hello
 	
 }
-
+*/
 char *ft_strncpy(char *dest, char *src, size_t n)
 {
 	char *local_dest = dest;
