@@ -2,7 +2,7 @@
 
 char *ft_strcat(char *dest, char *src);
 int ft_strlen(char *string);
-
+/*
 int main ()
 {
 	 char dest[50] = "Hello ";
@@ -11,7 +11,7 @@ int main ()
     printf("%s\n", dest);  // Output: Hello World!
     return 0;
 }
-
+*/
 int ft_strlen(char *string)
 {
 	int i = 0;
