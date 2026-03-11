@@ -2,16 +2,16 @@
 
 char *ft_strncat(char *dest,char *src, size_t size);
 int ft_strlen(char *string);
-/*
+
 int main()
 {
-	char dest[20] = "hello my";
+	char dest[12] = "hello my ";
 	char src[] = "mamai";
-	char *the_cat = ft_strncat(dest, src, 5);
+	char *the_cat = ft_strncat(dest, src, 2);
 
 	printf("%s", the_cat);
 }
-*/
+
 int ft_strlen(char *string)
 {
 	int len = 0;
@@ -33,6 +33,6 @@ char *ft_strncat(char *dest, char *src, size_t size)
 		counter_src++;
 	}
 	dest[counter_dest] = '\0';
-	return dest;	
+	return dest;
 }
 
