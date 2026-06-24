@@ -1,13 +1,3 @@
-#include <stdio.h>
-
-char 	*ft_strmap(char const *s, char (*f)(char));
-int	ft_strlen(char const *s);
-
-int main()
-{
-
-}
-
 int	ft_strlen(char const *s)
 {
 	int	i;

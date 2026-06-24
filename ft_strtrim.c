@@ -1,6 +1,3 @@
-char	*ft_strtrim(char const *s);
-int	ft_strlen(char *s);
-
 int	ft_strlen(char *s)
 {
 	int	i;

@@ -1,13 +1,3 @@
-#include <unistd.h>
-
-void  ft_putnbr_fd(int n, int fd);
-
-int main()
-{
-    ft_putnbr_fd(-1322141123, 1);
-}
-
-
 void  ft_putnbr_fd(int  n, int fd)
 {
   long  ln;

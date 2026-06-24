@@ -1,12 +1,3 @@
-#include <stdio.h>
-
-char *ft_strnew(size_t size);
-
-int main()
-{
-
-}
-
 char *ft_strnew(size_t size)
 {
 	char 	*str;

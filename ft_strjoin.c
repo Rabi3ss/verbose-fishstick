@@ -1,6 +1,3 @@
-char	*ft_strjoin(char const *s1, char const *s2);
-int	ft_strlen(char *s);
-
 int	ft_strlen(char *s)
 {
 	int	i;

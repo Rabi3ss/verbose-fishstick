@@ -1,18 +1,9 @@
-#include <stdlib.h>
-#include <stdio.h>
-
-void *ft_memalloc(size_t size);
-
-int main()
-{
-
-}
 
 void *ft_memalloc(size_t size)
 {
 	unsigned char 	*re;
 	size_t		i;
-	
+	//-1 input
 	i = 0;
 	re = (unsigned char *)malloc(size);
 	if (re == NULL)
@@ -24,4 +15,5 @@ void *ft_memalloc(size_t size)
 	}
 	return 	re; 
 }
+
 

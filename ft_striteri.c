@@ -1,12 +1,3 @@
-#include <stdio.h>
-
-void	ft_striteri(char *s, void (*f)(unsigned int, char *));
-
-int main()
-{
-
-}
-
 void	ft_striteri(char *s, void (*f)(unsigned int, char *))
 {
 	if (!s || !f)
