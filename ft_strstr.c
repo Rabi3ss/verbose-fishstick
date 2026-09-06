@@ -1,3 +1,5 @@
+#include "libft.h"
+
 char *ft_strstr(char *haystack, char *needle)
 {
 	int i = 0;

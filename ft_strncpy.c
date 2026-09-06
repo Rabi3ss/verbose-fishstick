@@ -1,3 +1,5 @@
+#include "libft.h"
+
 char *ft_strncpy(char *dest, char *src, size_t n)
 {
 	char *local_dest = dest;

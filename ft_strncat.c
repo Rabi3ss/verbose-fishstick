@@ -1,24 +1,18 @@
-int ft_strlen(char *string)
-{
-	int len = 0;
+#include "libft.h"
 
-	while(string[len])
-		len++;
-	
-	return len;
-}
-char *ft_strncat(char *dest, char *src, size_t size)
+
+char *ft_strncat(char *dst, char *src, size_t size)
 {
-	int counter_src = 0;
-	int counter_dest = ft_strlen(dest);
+	size_t counter_src = 0;
+	size_t counter_dst = ft_strlen(dst);
 
 	while(src[counter_src] && counter_src < size)
 	{
-		dest[counter_dest] =  src[counter_src];
-		counter_dest++;
+		dst[counter_dst] =  src[counter_src];
+		counter_dst++;
 		counter_src++;
 	}
-	dest[counter_dest] = '\0';
-	return dest;
+	dst[counter_dst] = 0;
+	return dst;
 }
 

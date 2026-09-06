@@ -1,12 +1,5 @@
-int	ft_strlen(char *s)
-{
-	int	i;
+#include "libft.h"
 
-	i = 0;
-	while (s[i])
-		i++;
-	return i;
-}
 
 char	*ft_strmapi(char const *s, char (*f)(unsigned int, char))
 {

@@ -1,3 +1,5 @@
+#include "libft.h"
+
 t_list  *ft_lstnew(void const *constent, size_t constent_size)
 {
 	t_list	*new;

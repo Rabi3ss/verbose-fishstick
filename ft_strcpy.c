@@ -1,3 +1,5 @@
+#include "libft.h"
+
 char *ft_strcpy(char *dst, char *src)
 {
 	char *dest = dst;

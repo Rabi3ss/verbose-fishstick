@@ -1,3 +1,5 @@
+#include "libft.h"
+
 void  ft_putendl(const char *s)
 {
   while (*s)
@@ -5,5 +7,5 @@ void  ft_putendl(const char *s)
     write(1, s, 1);
     s++;
   }
-  write(1, '\n', 1);
+  write(1, "\n", 1);
 }

@@ -1,11 +1,12 @@
-void	ft_striter(char *str, void (*f)(char *))
+#include "libft.h"
+
+void	ft_striter(char *s, void (*f)(char *))
 {
-	if (!str || !f)
+	if (!s || !f)
 		return ;
-	while (*str)
+	while (*s)
 	{
-		f(str);
-		str++;
+		f(s);
+		s++;
 	}
 }
-	

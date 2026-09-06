@@ -24,15 +24,16 @@ void *ft_memccpy(void *dest, const void *src, int c, size_t n)
 	return NULL;
 }
 
- void main()
+int main()
 {
 
-	char	dest[10];
-	char	src[10] = "fin cv hni";
-	
-	printf ("%s\n", memccpy(dest, src, 'c', 7));
-	//printf ("%s", dest);
-	printf ("%s\n", ft_memccpy(dest, src, 'c',7));
+	char	dest[9];
+	char	*src = "fin hani";
+	char	*str = memccpy(dest, src, 'h',8 );
+//	char	*str1 = ft_memccpy(dest, src, 'n',7);		
+	printf ("%s\n", str);
+//	printf (" dest = %s \n", dest);
+//	printf ("%s\n",	str1 );
 
 
 	//printf ("%s\n",memccpy(dest, NULL ,'c', 8));//seg

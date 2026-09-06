@@ -1,8 +1,10 @@
-char  *ft_iota(int n)
+#include "libft.h"
+
+char  *ft_itoa(int n)
 {
   char *ret;
   int len;
-  long ln;
+  long ln; //local n
 
   ln = n;
   len = 0;
@@ -12,16 +14,17 @@ char  *ft_iota(int n)
     len++;
     ln = ln * (-1);
   }
-  // bach n7sbo lante 
+  // bach n7sbo length
   while (ln != 0)
   {
     ln = ln / 10;
     len++;
   }
-  if (n == 0) len++;
+  if (ln == 0) len++;
   // han kan7jzo
   ret = malloc(sizeof(char) * len + 1);
-  if (!ret) return NULL;
+  if (!ret)
+	return NULL;
   ln = n;
   if (n < 0)
   {

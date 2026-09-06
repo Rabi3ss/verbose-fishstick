@@ -1,12 +1,4 @@
-int	ft_strlen(char *s)
-{
-	int	i;
-
-	i = 0;
-	while (s[i])
-		i++;
-	return i;
-}
+#include "libft.h"
 
 char	*ft_strtrim(char const *s)
 {
@@ -25,9 +17,10 @@ char	*ft_strtrim(char const *s)
 		len--;
 //#############################################################
 	str = malloc((len - star) * sizeof(char) + 1);
-	if (str == NULL) return NULL;
+	if (str == NULL)
+		return NULL;
 //######################################################	
-	while (star < len )
+	while (star < len)
 	{
 		str[i] = s[star];
 		star++;

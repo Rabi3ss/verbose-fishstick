@@ -1,3 +1,5 @@
+#include "libft.h"
+
 char *ft_strnstr(char *big, char *little, size_t len)
 {
 	if(*little == '\0')

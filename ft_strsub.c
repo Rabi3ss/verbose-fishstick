@@ -1,13 +1,6 @@
-int	ft_strlen(char *s)
-{
-	int 	i;
+#include "libft.h"
 
-	i = 0;
-	while (s[i])
-		i++;
-	return i;
-}
-
+	
 char	*ft_strsub(char const *s, unsigned int start, size_t len)
 {
 	char		*str;

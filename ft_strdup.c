@@ -1,11 +1,5 @@
-int ft_strlen(char *text)
-{
-	int i = 0;
+#include "libft.h"
 
-	while (text[i])
-		i++;
-	return i;
-}
 
 char *ft_strdup(char *s)
 {

@@ -1,3 +1,5 @@
+#include "libft.h"
+
 void  ft_putnbr_fd(int  n, int fd)
 {
   long  ln;
@@ -15,5 +17,4 @@ void  ft_putnbr_fd(int  n, int fd)
     ft_putnbr_fd(ln / 10 , fd);
   num = (ln % 10) + '0';
   write(fd, &num, 1);
-
 }
